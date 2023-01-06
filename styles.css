@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Montserrat:wght@300;400&display=swap');
 
-/* Polices 
-font-family: 'Baskervville', serif;
-font-family: 'Modak', cursive;
-font-family: 'Yeseva One', cursive;
-font-family: 'Jost', sans-serif;
-*/
-
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
 .hero {
-    height: 75vh;
+    height: 70vh;
     background-color: #d9e8b5be;
     color: #db95e9;
+}
+
+.d-flex {
+    justify-content: center;
+}
+
+.flex-column {
+    padding: 3%;
 }
 
 .img-fluid {
@@ -25,15 +26,47 @@ body {
 h1 {
     font-size: 5em;
     font-family: 'Calistoga', cursive;
+    letter-spacing: 0.1em;
+    color: #db95e9;
 }
 
 h2  {
     line-height: 1.5em;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
 }
 
 .amanda {
-    font-family: ;
+    font-family: 'Calistoga', cursive;
+    font-style: italic;
+    letter-spacing: 0.1em;
 }
 
+.navbar {
+    background-color: #d9e8b5be;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.navbar {
+    margin-right: 2%;
+    background: none;
+    font-family: 'Calistoga', cursive;
+    color: #db95e9;
+    font-size: 1.8em;
+}
+
+section {
+    padding: 4%;
+}
+
+#projets {
+    text-align: center;
+}
+
+h3 {
+
+}
 
