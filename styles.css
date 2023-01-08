@@ -39,23 +39,29 @@ h2  {
     font-family: 'Calistoga', cursive;
     font-style: italic;
     letter-spacing: 0.1em;
+    font-size: larger;
 }
 
 .navbar {
     background-color: #d9e8b5be;
     justify-content: flex-end;
+    font-family: 'Calistoga', cursive;
+    color: #db95e9;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
 }
 
 a {
     text-decoration: none;
 }
 
+a.navbar:hover {
+color: #9665a0;
+}
+
 a.navbar {
     margin-right: 2%;
     background: none;
-    font-family: 'Calistoga', cursive;
-    color: #db95e9;
-    font-size: 1.8em;
 }
 
 section {
@@ -66,7 +72,59 @@ section {
     text-align: center;
 }
 
-h3 {
 
-}
+/* Essai dropdown menu */
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #db95e9;
+    color: white;
+    padding: 0.5em;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.3em;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: absolute;
+    left: 0;
+    margin-left: 2%;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: smaller;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #d9e8b560;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #9665a0;
+    color: white;
+  }
 
