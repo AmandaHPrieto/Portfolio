@@ -50,6 +50,16 @@ h4  {
     margin-bottom: 10%;
 }
 
+h5 {
+  background-color: #8370bd34;
+    padding: 0.1em;
+    border: none;
+    border-radius: 50px;
+    font-size: 2em;
+    font-family: 'Shrikhand', cursive;
+    letter-spacing: 0.1em;
+}
+
 .navbar {
     justify-content: flex-end;
     color: #8370bd;
