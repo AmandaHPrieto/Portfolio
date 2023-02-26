@@ -52,13 +52,21 @@ h4  {
 }
 
 h5 {
-  background-color: #8370bd34;
+    background-color: #8370bd34;
     padding: 0.1em;
     border: none;
     border-radius: 50px;
     font-size: 2em;
     font-family: 'Shrikhand', cursive;
     letter-spacing: 0.1em;
+}
+
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight:lighter;
+  letter-spacing: 1em;
+  font-size: 2em;
+  line-height: 4em;
 }
 
 .navbar {
